@@ -1,11 +1,17 @@
 import React from "react";
 import MyMind from "./editor/mind";
+import TreeTransfer from "./TreeTransfer";
 
-// import "./global.less";
 import "antd/dist/antd.less";
 
 function App() {
-	return <MyMind />;
+	return (
+		<div>
+			<MyMind />
+			<hr />
+			<TreeTransfer />
+		</div>
+	);
 }
 
 export default App;

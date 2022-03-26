@@ -12,8 +12,8 @@ import styles from "./index.module.less";
 import { withPropsAPI } from "gg-editor";
 GGEditor.setTrackable(false);
 
-import data from "./worldCup2018.json";
-// import originData from "./seppData.json";
+import data from "Src/data/worldCup2018.json";
+// import originData from "Src/data/seppData.json";
 // const data = { roots: [originData.root] };
 
 export default function MyMindWrap() {
@@ -131,7 +131,7 @@ const SaveButton = withPropsAPI(({ propsAPI, onCopy, onPaste }) => {
 	};
 
 	return (
-		<Card style={{ background: "#f5f5f5", height: "100px" }} onKeyDown={(e) => console.log(e)}>
+		<Card style={{ background: "#f5f5f5" }} onKeyDown={(e) => console.log(e)}>
 			<Space>
 				<Button onClick={onSave}>保存</Button>
 				<Button onClick={onCopy}>Copy</Button>

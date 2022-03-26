@@ -1,0 +1,188 @@
+{
+	"roots": [
+		{
+			"label": "法国",
+			"children": [
+				{
+					"label": "克罗地亚",
+					"children": [
+						{
+							"label": "克罗地亚",
+							"children": [
+								{
+									"label": "克罗地亚",
+									"children": [
+										{
+											"label": "克罗地亚",
+											"side": "right",
+											"id": "f552881e"
+										},
+										{
+											"label": "丹麦",
+											"side": "right",
+											"id": "f8120464"
+										}
+									],
+									"side": "right",
+									"id": "22ecf326"
+								},
+								{
+									"label": "俄罗斯",
+									"children": [
+										{
+											"label": "俄罗斯",
+											"side": "right",
+											"id": "c384f66c"
+										},
+										{
+											"label": "西班牙",
+											"side": "right",
+											"id": "e92bcef3"
+										}
+									],
+									"side": "right",
+									"id": "c7fe6368"
+								}
+							],
+							"side": "right",
+							"id": "bf0c3404"
+						},
+						{
+							"label": "英格兰",
+							"children": [
+								{
+									"label": "英格兰",
+									"children": [
+										{
+											"label": "英格兰",
+											"side": "right",
+											"id": "51e9540b"
+										},
+										{
+											"label": "哥伦比亚",
+											"side": "right",
+											"id": "e9fc66ce"
+										}
+									],
+									"side": "right",
+									"id": "52fa9901"
+								},
+								{
+									"label": "瑞典",
+									"children": [
+										{
+											"label": "瑞士",
+											"side": "right",
+											"id": "a190cec4"
+										},
+										{
+											"label": "瑞典",
+											"side": "right",
+											"id": "64134953"
+										}
+									],
+									"side": "right",
+									"id": "e188d230"
+								}
+							],
+							"side": "right",
+							"id": "974f346f"
+						}
+					],
+					"side": "right",
+					"id": "6298eda8"
+				},
+				{
+					"label": "法国",
+					"children": [
+						{
+							"label": "法国",
+							"children": [
+								{
+									"label": "法国",
+									"children": [
+										{
+											"label": "法国",
+											"side": "right",
+											"id": "1b94402e"
+										},
+										{
+											"label": "阿根廷",
+											"side": "right",
+											"id": "2500ee27"
+										}
+									],
+									"side": "right",
+									"id": "ca9579ff"
+								},
+								{
+									"label": "乌拉圭",
+									"children": [
+										{
+											"label": "乌拉圭",
+											"side": "right",
+											"id": "b2b6615b"
+										},
+										{
+											"label": "葡萄牙",
+											"side": "right",
+											"id": "f3ba9a54"
+										}
+									],
+									"side": "right",
+									"id": "689a9dde"
+								}
+							],
+							"side": "right",
+							"id": "008ac403"
+						},
+						{
+							"label": "比利时",
+							"children": [
+								{
+									"label": "比利时",
+									"children": [
+										{
+											"label": "比利时",
+											"side": "right",
+											"id": "9bfee73c"
+										},
+										{
+											"label": "日本",
+											"side": "right",
+											"id": "a68c9e3d"
+										}
+									],
+									"side": "right",
+									"id": "d5954be0"
+								},
+								{
+									"label": "巴西",
+									"children": [
+										{
+											"label": "巴西",
+											"side": "right",
+											"id": "d7754df8"
+										},
+										{
+											"label": "墨西哥",
+											"side": "right",
+											"id": "da80c1f4"
+										}
+									],
+									"side": "right",
+									"id": "5815b377"
+								}
+							],
+							"side": "right",
+							"id": "ae7b03ca"
+						}
+					],
+					"side": "right",
+					"id": "ae278268"
+				}
+			],
+			"id": "7bbd84b3"
+		}
+	]
+}
