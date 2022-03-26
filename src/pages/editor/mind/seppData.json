@@ -1,0 +1,81 @@
+{
+	"root": {
+		"label": "服务端22",
+		"children": [
+			{
+				"data": {
+					"id": "citg656l2280",
+					"created": 1648262155997,
+					"label": "服务端",
+					"priority": 1
+				},
+				"fill": "red",
+				"color": "red",
+				"label": "服务端",
+				"style": {
+					"color": "red"
+				},
+				"children": [
+					{
+						"data": {
+							"id": "citg667yiyw0",
+							"created": 1648262158257,
+							"label": "阿斯顿发",
+							"progress": 9
+						},
+						"label": "阿斯顿发",
+						"children": [
+							{
+								"data": {
+									"id": "citg6bmvqvc0",
+									"created": 1648262170043,
+									"label": "分支主题"
+								},
+								"label": "分支主题",
+								"children": [
+									{
+										"data": {
+											"id": "citg6cxmnjk0",
+											"created": 1648262172870,
+											"label": "分支主题"
+										},
+										"label": "分支主题"
+									}
+								]
+							}
+						]
+					},
+					{
+						"data": {
+							"id": "citg6dxccyw0",
+							"created": 1648262175029,
+							"label": "分支主题"
+						},
+						"label": "分支主题"
+					}
+				]
+			},
+			{
+				"label": "后台",
+				"children": [
+					{
+						"data": {
+							"id": "citg7h3quxs0",
+							"created": 1648262260311,
+							"label": "大字体",
+							"font-size": 24,
+							"font-weight": "bold",
+							"font-style": "italic",
+							"priority": 6
+						},
+						"label": "大字体",
+						"children": []
+					}
+				]
+			}
+		]
+	},
+	"template": "right",
+	"theme": "fresh-blue",
+	"version": "1.4.43"
+}
