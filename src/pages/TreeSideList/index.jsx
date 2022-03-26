@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { List, Tree } from "antd";
-import { useEffect } from "react/cjs/react.production.min";
 
 const treeData = [
 	{ key: "0-0", title: "业务0" },
@@ -42,16 +41,14 @@ export default function TreeSideList() {
 	const onSelect = (keys, info) => {
 		console.log("selected", keys, info);
 		setSelectedKeys(keys);
-		updateList(keys);
 	};
 
 	const onCheck = (keys, info) => {
 		console.log("onCheck", keys, info);
 		setSelectedKeys(keys);
-		updateList(keys);
 	};
 
-	const updateList = (selectedKeys) => {
+	useEffect(() => {
 		const newList = [];
 		for (const key of selectedKeys) {
 			if (keyFullTitleMap[key]) {
@@ -60,7 +57,7 @@ export default function TreeSideList() {
 		}
 
 		setSelectedTitleList(newList);
-	};
+	}, [selectedKeys.length]);
 
 	return (
 		<div style={{ display: "flex", justifyContent: "space-between" }}>
